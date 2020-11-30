@@ -12,7 +12,7 @@ ap.add_argument("-t", "--output", required=True,
 args = vars(ap.parse_args())
 
 # define the integer indices for mouth
-LANDMARKS = set(list(range(48, 68)))
+LANDMARKS = set(range(48, 68))
 
 # to easily parse out the mouth locations from the XML file we can
 # utilize regular expressions to determine if there is a 'part'
